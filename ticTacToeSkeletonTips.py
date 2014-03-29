@@ -196,8 +196,11 @@ def hasWon(bo, le):
 def boardIsFull():
     ## Tips: use a for loop combined with an if statement. This function needs to either return a True or a False
     ## If there are spots left (i.e.board is not full), return True. Else, if no spots are left, return False.
-    ## When you write your codes, take away the "pass" statement below. 
-    pass
+
+    for i in range(???):
+        if ???(i):
+            return True
+    return False
 
 
 
